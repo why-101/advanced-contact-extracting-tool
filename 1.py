@@ -10,7 +10,7 @@ import html2text
 import re
 
 # Making list from CSV file
-with open('CTRI.csv', 'r') as f:
+with open('companies_names.csv', 'r') as f:
     reader = csv.reader(f)
     your_list = list(reader)
 j = list(itertools.chain.from_iterable(your_list))  # Combining nested list as one
@@ -18,7 +18,7 @@ res_lis = j[1:]
 print(res_lis)   # Printing list
 
 # Defining web driver for chrome
-s = Service('C:/Users/chait/Dropbox/PC/Downloads/chromedriver_win32 (1)/chromedriver.exe')
+s = Service('ypur_chrome_driver_path')
 driver = webdriver.Chrome(service=s)
 
 count = len(res_lis)   # Something that don't have to remove
