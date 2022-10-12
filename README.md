@@ -1,4 +1,5 @@
 # advanced-email-extracting-tool
+
 basic function : extract emails and phone numbers from any company, college and organisations official website
 
 requirements : 1) .CSV file with companies names
