@@ -13,3 +13,5 @@ requirements :
                3) most required is pycharm
                
                4) you have to modify script to only specify file name and chromedriver path
+
+Till now this tool have 50% Accuracy
