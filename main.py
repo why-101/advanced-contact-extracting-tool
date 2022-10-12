@@ -13,7 +13,7 @@ from progress.bar import Bar
 
 # Making list from CSV file
 
-with open('ctri 2500-2750.csv', 'r') as f:
+with open('your file', 'r') as f:
     reader = csv.reader(f)
     your_list = list(reader)
 
@@ -24,7 +24,7 @@ print("whole list :", res_lis)  # Printing list
 print(len(res_lis))
 
 # Defining web driver for chrome
-s = Service('C:/Users/ADMIN/Desktop/ctri/chromedriver.exe')
+s = Service('your file path of chromedriver')
 driver = webdriver.Chrome(service=s)
 
 count = len(res_lis)  # Something that don't have to remove
